@@ -60,9 +60,7 @@ $db = new Database('yoda');
                             <div class="version">
                                     <hr class="my-4">
                                     <span>
-                                        <i class="iconVignette fas fa-phone"></i>
                                         <?=$clients->CLI_NUM_VERSION?>
-                                        <i class="iconVignette fas fa-edit"></i>
                                     </span> 
                             </div>                     
 

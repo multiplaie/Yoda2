@@ -8,8 +8,8 @@
 
 
 .subBall {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   background: #0077ab;
   border-radius: 100%;
   position: absolute;
@@ -19,28 +19,28 @@
 }
 
 .bubble{
-    margin: 15px;
+    margin: 7px;
     color:white;
 }
 
 .vignette.clicked .subBall.telephoneIcon {
-  transform: translate(-7em);
+  transform: rotate(-60deg) translate(-6em) rotate(60deg);
 
   transition: all 0.5s ease;
 }
 
 .vignette.clicked .subBall.databaseIcon {
-  transform: rotate(-30deg) translate(-7em) rotate(30deg);
+  transform: rotate(-80deg) translate(-6em) rotate(80deg);
   transition: all 0.5s ease;
 }
 
 .vignette.clicked .subBall.versionIcon {
-  transform: rotate(-60deg) translate(-7em) rotate(60deg);
+  transform: rotate(-100deg) translate(-6em) rotate(100deg);
   transition: all 0.5s ease;
 }
 
 .vignette.clicked .subBall.modifIcon {
-  transform: rotate(-90deg) translate(-7em) rotate(90deg);
+  transform: rotate(-120deg) translate(-6em) rotate(120deg);
   transition: all 0.5s ease;
 }
 

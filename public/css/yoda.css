@@ -1,3 +1,8 @@
+body{
+    background: #EEE;
+}
+
+
 .content{
     display: flex;
     flex-flow: row wrap;
